@@ -8,7 +8,11 @@ public class DigitAdderRunner
 {
 	public static void main( String args[] )
 	{
-		System.out.print( 8%3 );
+		for(int ab=0; ab <= 4; ab++)
+		{
+			for(int cd=1; cd <= 1; cd++)
+				System.out.print( ab % cd );
+		}
 
 	}
 
